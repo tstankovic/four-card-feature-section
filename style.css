@@ -68,3 +68,31 @@ header p {
   margin-top: 2rem;
   float: right;
 }
+
+@media (max-width: 375px) {
+  body {
+    width: 100%;
+  }
+
+  header p {
+    width: 80%;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+  .left,
+  .right,
+  .center {
+    width: 100%;
+  }
+
+  .left,
+  .right {
+    margin: 2rem 0;
+  }
+}
